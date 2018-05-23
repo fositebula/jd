@@ -73,6 +73,9 @@ s {
     left:-18px;
     color: #f10215;
 }
+body {
+    background-color: #f0f3ef;
+}
 .spacer {
     font-size: 10px;
     color: #999999;
@@ -226,10 +229,12 @@ s {
 }
 /*hearder end*/
 /*footer start*/
+.footer {
+    border-bottom: 1px solid #dedede;
+}
 .footer-service-inner {
     padding-top: 30px;
-    height: 300px;
-    background-color: pink;
+    height: 80px;
 }
 .footer-service-inner li {
     float: left;
