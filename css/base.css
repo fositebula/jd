@@ -110,7 +110,7 @@ s {
     height: 35px;
     background-color: purple;
     position: absolute;
-    top: 30px;
+    top: 25px;
     left: 320px;
 }
 .search input {
@@ -160,7 +160,7 @@ s {
     background-color: #fff;
     border: 1px solid #ccc;
     position: absolute;
-    top: 30px;
+    top: 25px;
     left:900px;
 }
 .gouwuche a {
@@ -187,6 +187,42 @@ s {
     left: 130px;
     top: 3px;
     border-radius: 7px;
+}
+.erweima {
+    height: 66px;
+    width: 66px;
+    background: url("../images/erweima.png") no-repeat center;
+    position: absolute;
+    top:0px;
+    right: 0;
+    border: 1px solid #CCCCCC;
+}
+.shortcut {
+    width: 800px;
+    height: 30px;
+    /*background-color: skyblue;*/
+    position: absolute;
+    top: 110px;
+    left: 200px;
+}
+.shortcut ul, .shortcut li, .shortcut span{
+    float: left;
+}
+.shortcut a, span {
+    line-height:30px;
+}
+.shortcut li {
+    margin-left: 25px;
+}
+.shortcut .spacer {
+    margin-right: -20px;
+    margin-left: 13px;
+}
+.shortcut a {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei', sans-serif;
+    color: #555555;
 }
 /*hearder end*/
 
