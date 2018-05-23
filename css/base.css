@@ -225,4 +225,46 @@ s {
     color: #555555;
 }
 /*hearder end*/
+/*footer start*/
+.footer-service-inner {
+    padding-top: 30px;
+    height: 300px;
+    background-color: pink;
+}
+.footer-service-inner li {
+    float: left;
+    margin: 0 63px;
+    position: relative;
+}
+.footer-service-inner li p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei', sans-serif;
+    color: #555555;
+}
+.footer-service-inner h5 {
+    width: 36px;
+    height: 42px;
+    /*background-color: skyblue;*/
+    text-indent: -999999px;
+    overflow: hidden;
+    background: url('../images/ico_service.png') no-repeat;
+}
 
+.duo ,.kuai, .hao, .sheng{
+    position: absolute;
+    top: -9px;
+    left: -42px;
+}
+.footer-service-inner .duo {
+    background-position: 0 0;
+}
+.footer-service-inner .kuai {
+    background-position: 0 -43px;
+}
+.footer-service-inner .hao {
+    background-position: 0 -86px;
+}
+.footer-service-inner .sheng {
+    background-position: 0 -129px;
+}
